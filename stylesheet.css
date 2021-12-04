@@ -1,0 +1,51 @@
+#meta
+{
+    position: absolute;
+    width: 99%;
+    height: 99vh;
+    background-image: url(Images/meta_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#meta_welcome
+{
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    font-family: monospace;
+    font-size: 4rem;
+    color: navy;
+}
+
+#instagram
+{
+    position: absolute;
+    left: 20%;
+    top: 85%;
+    transform: scale(5);
+}
+
+#facebook
+{
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: scale(5);
+}
+
+#whatsapp
+{
+    position: absolute;
+    left: 80%;
+    top: 85%;
+    transform: scale(5);
+}
+
+.meta{
+    .fab{
+        color: transparent;
+        background-clip: text;
+        background-image: linear-gradient(to right, red, navy);
+    }
+}
