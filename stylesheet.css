@@ -3,7 +3,7 @@
     position: absolute;
     width: 99%;
     height: 99vh;
-    background-image: url(Images/meta_image.jpg);
+    background-image: url(Images/meta1_auto_x2.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -12,17 +12,27 @@
 {
     position: absolute;
     top: 0%;
-    left: 35%;
-    font-family: monospace;
+    left: 40%;
+    font-family: 'Smooch', cursive;
     font-size: 4rem;
-    color: navy;
+    color: #32527b;
+}
+
+#properties
+{
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    font-family: 'Meow Script', cursive;
+    font-size: 2.5rem;
+    color: #32527b;
 }
 
 #instagram
 {
     position: absolute;
     left: 20%;
-    top: 85%;
+    top: 90%;
     transform: scale(5);
 }
 
@@ -30,7 +40,7 @@
 {
     position: absolute;
     left: 50%;
-    top: 85%;
+    top: 90%;
     transform: scale(5);
 }
 
@@ -38,14 +48,7 @@
 {
     position: absolute;
     left: 80%;
-    top: 85%;
+    top: 90%;
     transform: scale(5);
 }
 
-.meta{
-    .fab{
-        color: transparent;
-        background-clip: text;
-        background-image: linear-gradient(to right, red, navy);
-    }
-}
