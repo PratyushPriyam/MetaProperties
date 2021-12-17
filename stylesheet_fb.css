@@ -1,0 +1,124 @@
+/*FACEBOOK------------------------------------------------------------------------------------*/
+body
+{
+    background: linear-gradient(45deg, white 50%, #1877f2 50%);
+}
+#body_fb
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+#para_intro
+{
+    font-family: sans-serif;
+    font-size: 4rem;
+    color: #2596be;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+
+#para_body
+{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #362f3a;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+#loIin_signUp
+{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 350px;;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#inp_email
+{
+    height: 20px;
+    width: 290px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#password
+{
+    height: 20px;
+    width: 290px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#button_logIn
+{
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F29318;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#forgot_password
+{
+    position: absolute;
+    top: 55%;
+    color: black;
+}
+
+#button_signUp
+{
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #18F226;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:#FFFF00;
+    height: 1px;
+    position: absolute;
+    top: 70%;
+}
+
+
+
+/*FACEBOOK------------------------------------------------------------------------------------*/
