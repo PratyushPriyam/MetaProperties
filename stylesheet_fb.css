@@ -17,6 +17,7 @@ body
 
 #para_intro
 {
+    display: flex;
     font-family: sans-serif;
     font-size: 4rem;
     color: #2596be;
@@ -27,6 +28,7 @@ body
 
 #para_body
 {
+    display: flex;
     font-family: sans-serif;
     font-size: 1.5rem;
     color: #362f3a;
@@ -37,6 +39,7 @@ body
 
 #loIin_signUp
 {
+    display: flex;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -117,6 +120,29 @@ hr {
     height: 1px;
     position: absolute;
     top: 70%;
+}
+
+
+@media (max-width:450px)
+{
+    #loIin_signUp
+    {
+        transform: scale(0.9);
+        top: 23%;
+    }
+    
+    #para_intro
+    {
+        font-size: 3rem;
+        top: 1%;
+        left: 25%;
+        color: white;
+    }
+    
+    #para_body
+    {
+        top: 80%;
+    }
 }
 
 
