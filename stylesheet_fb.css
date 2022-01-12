@@ -1,5 +1,5 @@
-/*FACEBOOK------------------------------------------------------------------------------------*/
-body
+/*FACEBOOK----------------LOG IN PAGE------------------------------------------------------------------------------------*/
+#body_id
 {
     background: linear-gradient(45deg, white 50%, #1877f2 50%);
 }
@@ -123,7 +123,56 @@ hr {
 }
 
 
-@media (max-width:450px)
+
+@media (min-width:0px) and (max-width:350px){
+    #loIin_signUp
+    {
+        transform: scale(0.73);
+        top: 23%;
+        left: -0.75cm;
+    }
+    
+    #para_intro
+    {
+        font-size: 3rem;
+        top: 1%;
+        left: 20%;
+        color: white;
+    }
+    
+    #para_body
+    {
+        top: 70%;
+        transform: scale(0.9);
+        margin: 10px;
+    }
+}
+
+@media (min-width:351px) and (max-width:400px)
+{
+    #loIin_signUp
+    {
+        transform: scale(0.8);
+        top: 23%;
+        left: 0%;
+    }
+    
+    #para_intro
+    {
+        font-size: 3rem;
+        top: 1%;
+        left: 25%;
+        color: white;
+    }
+    
+    #para_body
+    {
+        top: 80%;
+        right: 10%;
+    }
+}
+
+@media (min-width:401px) and (max-width:600px)
 {
     #loIin_signUp
     {
@@ -145,6 +194,214 @@ hr {
     }
 }
 
+@media (min-width:601px) and (max-width:800px)
+{
+    #loIin_signUp
+    {
+        transform: scale(1);
+        top: 23%;
+        left: 200px;
+    }
+    
+    #para_intro
+    {
+        font-size: 3rem;
+        top: 1%;
+        left: 35%;
+        color: white;
+    }
+    
+    #para_body
+    {
+        top: 80%;
+    }
+}
+
+@media (min-width:801px) and (max-width:1100px)
+{
+    #loIin_signUp
+    {
+        transform: scale(1);
+        top: 15%;
+    }
+    
+    #para_intro
+    {
+        font-size: 3rem;
+        top: 35%;
+        left: 20%;
+        color: #2596be;
+    }
+    
+    #para_body
+    {
+        top: 70%;
+    }
+}
 
 
-/*FACEBOOK------------------------------------------------------------------------------------*/
+
+/*FACEBOOK----------------LOG IN PAGE------------------------------------------------------------------------------------*/
+
+
+
+/*FACEBOOK----------------HOME PAGE------------------------------------------------------------------------------------*/
+
+
+
+#upper_options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 5%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #242526;
+}
+
+.fb_icon{
+    color: #0e8ef2;
+    transform: scale(2.5);
+    position: absolute;
+    left: 2%;
+}
+
+.search_fb{
+    transform: scale(1.5);
+    position: absolute;
+    left: 6.5%;
+    z-index: 3;
+    color: #808286;
+}
+
+#home_icon_holder, #friends_icon_holder, #watch_icon_holder, #marketplace_icon_holder, #gaming_icon_holder{
+    border: 1px solid white;
+    border-style: hidden;
+    height: 43px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
+#home_icon_holder{
+    left: 35%;
+}
+
+#friends_icon_holder{
+    left: 40%;
+}
+
+#watch_icon_holder{
+    left: 45%;
+}
+
+#marketplace_icon_holder{
+    left: 50%;
+}
+
+#gaming_icon_holder{
+    left: 55%;
+}
+
+
+
+.home_icon, .friends_icon, .watch_icon, .marketplace_icon, .gaming_icon{
+    transform: scale(1.5);
+    z-index: 2;
+    color: #919399;
+}
+
+#input_fb_home{
+    border: 1px solid black;
+    border-radius: 20px;
+    transform: scale(1.3);
+    position: absolute;
+    left: 7%;
+    padding: 5px;
+    background-color: #3a3b3c;
+    color: #808286;
+}
+
+
+#name{
+    color: #d6d8dd;
+    position: absolute;
+    right: 20%;
+    font-family: monospace;
+    transform: scale(1.3);
+}
+
+#fb_profile_pic{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.menu_icon, .fb_messenger, .notification, .down_arrow{
+    transform: scale(1.5);
+    position: absolute;
+    z-index: 2;
+    color: #7d7f82;
+}
+.menu_icon{
+    right: 16%;
+}
+.fb_messenger{
+    right: 12%;
+}
+.notification{
+    right: 8%;
+}
+.down_arrow{
+    right: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FACEBOOK----------------HOME PAGE------------------------------------------------------------------------------------*/
